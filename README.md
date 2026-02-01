@@ -11,8 +11,10 @@ Backend API (Render): [Your-Render-Link-Here]
 - Responsive Grid: Optimized for mobile, tablet, and desktop views.📋 Orders DashboardOrder Tracking: View all customer orders with status-specific badges.
 - Status Management: Update orders (Pending → Preparing → Ready) via dropdowns.Expanded Details: Click any order row to view specific items and quantities.
 - Pagination: Smooth navigation through order history with limit-based loading.🛠️ Tech StackComponentTechnologyFrontendReact.js, React Router v5, Axios, CSS3
-- BackendNode.js, Express.jsDatabaseMongoDB Atlas (Mongoose)DeploymentNetlify (Frontend), Render (Backend)📂 Project StructurePlaintextrestaurant-app/
+- BackendNode.js, Express.jsDatabaseMongoDB Atlas (Mongoose)DeploymentNetlify (Frontend), Render (Backend)
 
+📂 Project Structure
+  
 ```
 ├── client/              # React Frontend
 │   ├── public/          # index.html, _redirects (Netlify fix)
@@ -49,3 +51,4 @@ npm start
 - The backend is configured to allow requests from the Netlify production URL.
 - Environment Variables: Sensitive data like MongoDB credentials are managed via Render's Environment Variables dashboard.
 - Redirects: A _redirects file is included in the client/public folder to support React Router's single-page navigation on Netlify.
+
