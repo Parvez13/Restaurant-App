@@ -1,0 +1,62 @@
+.orders-container {
+  padding: 30px;
+  background-color: #f1f5f9;
+  min-height: 100vh;
+}
+
+.status-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.status-tab {
+  padding: 8px 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+}
+
+.active-status {
+  background-color: #ff2400;
+  color: white;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.order-row {
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.pending { background: #fef3c7; color: #92400e; }
+.preparing { background: #dbeafe; color: #1e40af; }
+.ready { background: #dcfce7; color: #166534; }
+
+.expanded-row {
+  background-color: #f8fafc;
+}
+
+.order-details {
+  padding: 15px;
+  border-left: 4px solid #ff2400;
+}
+
+.dashboard-title{
+    text-align: center;
+    color:#ff2400;
+}
