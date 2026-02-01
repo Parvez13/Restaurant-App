@@ -1,0 +1,4 @@
+server/.env
+client/restaurant-app/.env 
+server/node_modules
+client/restaurant-app/node_modules
