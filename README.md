@@ -1,8 +1,9 @@
 # Restaurant Management System
 A full-stack MERN (MongoDB, Express, React, Node.js) application designed for seamless restaurant operations. This project features a dynamic menu management system and a real-time orders dashboard with status tracking.
+
 🚀 Live Demo
-Frontend (Netlify): [Your-Netlify-Link-Here]
-Backend API (Render): [Your-Render-Link-Here]
+Frontend (Netlify): restaurant-app-lime-omega.vercel.app
+Backend API (Render): https://restaurant-app-ine9.onrender.com
 
 ✨ Features🍱
 
@@ -51,4 +52,5 @@ npm start
 - The backend is configured to allow requests from the Netlify production URL.
 - Environment Variables: Sensitive data like MongoDB credentials are managed via Render's Environment Variables dashboard.
 - Redirects: A _redirects file is included in the client/public folder to support React Router's single-page navigation on Netlify.
+
 
