@@ -59,6 +59,9 @@ const Orders = () => {
   return (
     <>
       <Header />
+      {isLoading? (
+        <p>Loading Orders...</p> // Now 'isLoading' is "used"
+      ): (
       <div className="orders-container">
         <h1 className="dashboard-title">Orders Dashboard</h1>
 
@@ -152,7 +155,7 @@ const Orders = () => {
             Next
           </button>
         </div>
-      </div>
+      </div>)}
     </>
   );
 };
