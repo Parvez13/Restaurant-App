@@ -20,7 +20,7 @@ const Orders = () => {
   // 1. Define the base URL once
   const BASE_URL = window.location.hostname === 'localhost' 
     ? 'http://localhost:5000' 
-    : 'https://your-backend-name.onrender.com'; // <--- Replace with your Render URL
+    : 'https://restaurant-app-ine9.onrender.com'; // <--- Replace with your Render URL
 
   const fetchOrders = async () => {
     setIsLoading(true);

@@ -26,7 +26,7 @@ const Menu = () => {
     // 1. Define which URL to use
     const baseUrl = window.location.hostname === 'localhost' 
       ? 'http://localhost:5000' 
-      : 'https://your-backend-name.onrender.com'; // <--- Paste your Render URL here
+      : 'https://restaurant-app-ine9.onrender.com'; // <--- Paste your Render URL here
 
     // 2. Use the variable instead of the hardcoded string
     let url = `${baseUrl}/api/menu?category=${activeCategory}`;
